@@ -2,5 +2,4 @@
 - hosts : all
   become : yes
   tasks :
-  -  include-tasks: myfile.yml
-  
+  -  include_tasks: myfile.yml
