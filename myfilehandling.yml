@@ -1,0 +1,8 @@
+---
+- hosts : 
+  become : yes
+  tasks :
+    - name : create a file
+      file : 
+        path : /home/lakki/myfirstfile
+        state : touch
